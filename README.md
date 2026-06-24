@@ -18,9 +18,14 @@ The app has no visual interface (UI). When launched, it simply fires an `ACTION_
 - The official **Zee5** app installed on your TV.
 - **Button Mapper** (or similar button remapping app) installed on your TV.
 
-## Building the APK
+## Download Pre-built APK
 
-You can build the APK via the command line using the Gradle wrapper:
+If you don't want to build the project yourself, you can simply download the pre-compiled APK directly from this repository:
+[Download app-debug.apk](https://github.com/pratikgagare03/OneClickZee5LiveTvLauncher/blob/main/app/build/outputs/apk/debug/app-debug.apk)
+
+## Building the APK (Optional)
+
+If you wish to customize and build the APK yourself via the command line using the Gradle wrapper:
 
 ```bash
 # Ensure JAVA_HOME points to Java 17
