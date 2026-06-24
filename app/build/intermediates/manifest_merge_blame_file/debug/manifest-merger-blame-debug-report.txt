@@ -1,0 +1,47 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.zee5launcher"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <application
+11-->/home/nityaobject/pratik/zee5launcher/app/src/main/AndroidManifest.xml:5:5-21:19
+12        android:allowBackup="true"
+12-->/home/nityaobject/pratik/zee5launcher/app/src/main/AndroidManifest.xml:6:9-35
+13        android:debuggable="true"
+14        android:extractNativeLibs="true"
+15        android:label="Zee Marathi"
+15-->/home/nityaobject/pratik/zee5launcher/app/src/main/AndroidManifest.xml:7:9-36
+16        android:supportsRtl="true"
+16-->/home/nityaobject/pratik/zee5launcher/app/src/main/AndroidManifest.xml:8:9-35
+17        android:theme="@android:style/Theme.NoDisplay" >
+17-->/home/nityaobject/pratik/zee5launcher/app/src/main/AndroidManifest.xml:9:9-55
+18        <activity
+18-->/home/nityaobject/pratik/zee5launcher/app/src/main/AndroidManifest.xml:11:9-20:20
+19            android:name="com.example.zee5launcher.MainActivity"
+19-->/home/nityaobject/pratik/zee5launcher/app/src/main/AndroidManifest.xml:12:13-41
+20            android:exported="true"
+20-->/home/nityaobject/pratik/zee5launcher/app/src/main/AndroidManifest.xml:13:13-36
+21            android:theme="@android:style/Theme.NoDisplay" >
+21-->/home/nityaobject/pratik/zee5launcher/app/src/main/AndroidManifest.xml:14:13-59
+22            <intent-filter>
+22-->/home/nityaobject/pratik/zee5launcher/app/src/main/AndroidManifest.xml:15:13-19:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->/home/nityaobject/pratik/zee5launcher/app/src/main/AndroidManifest.xml:16:17-69
+23-->/home/nityaobject/pratik/zee5launcher/app/src/main/AndroidManifest.xml:16:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->/home/nityaobject/pratik/zee5launcher/app/src/main/AndroidManifest.xml:17:17-77
+25-->/home/nityaobject/pratik/zee5launcher/app/src/main/AndroidManifest.xml:17:27-74
+26                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+26-->/home/nityaobject/pratik/zee5launcher/app/src/main/AndroidManifest.xml:18:17-86
+26-->/home/nityaobject/pratik/zee5launcher/app/src/main/AndroidManifest.xml:18:27-83
+27            </intent-filter>
+28        </activity>
+29    </application>
+30
+31</manifest>
