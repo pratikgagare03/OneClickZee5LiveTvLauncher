@@ -14,7 +14,7 @@ public class MainActivity extends Activity {
             Intent intent = new Intent(Intent.ACTION_VIEW);
             intent.setData(Uri.parse("https://www.zee5.com/live-tv/zee-marathi-hd/0-9-zeemarathi"));
             intent.setPackage("com.graymatrix.did");
-            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
         } catch (Exception e) {
             Toast.makeText(this, "Failed to launch Zee5", Toast.LENGTH_SHORT).show();
